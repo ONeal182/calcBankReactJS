@@ -1,0 +1,102 @@
+.calc__rightSide__content__st__left{
+    height: 100%;
+
+    margin-right: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+
+    .calcSum{
+        width: 150px;
+        font-family: CircleBold;
+        font-size: 25px;
+        font-weight: bold;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: 1.28;
+        letter-spacing: normal;
+        text-align: center;
+        text-align: left;
+    }
+
+    .namePersent{
+        font-family: CircleRegular;
+        font-size: 16px;
+        font-weight: normal;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: 2;
+        letter-spacing: normal;
+        text-align: center;
+        padding-bottom: 90px;
+       
+        &__quest{
+          padding:0 8px;
+          margin:5px;
+          color:#4bd1a0;
+          border-radius: 14px;
+          border: solid 1px #4bd1a0;
+          text-align: center;
+        }
+    }
+
+   .persent{
+    font-family: CircleRegular;
+    font-size: 16px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.44;
+    letter-spacing: normal;
+    text-align: left;
+    color:#333333;
+    opacity: 0.6;
+       
+      }
+  
+      .chart_cylinder {
+        width: 137px;
+        border-radius: 50% / 23px;
+        position: relative;
+        overflow: hidden;
+        margin-top: 20px;
+        height: 100px;
+        transition: height 1s ease;
+     }
+      
+      .chart_cylinder:before {
+        content: '';
+        display: block;
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 0;
+        height: 46px;
+        border-radius: 0 0 50% 50%;
+      }
+      
+      
+      /* Цвета отдельно */
+      .chart_cylinder_green_shadow {
+        background-color: #3ba67f;
+        /* Тень писал наугад, может быть не совсем правильной */
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        
+      }
+      
+      .chart_cylinder_green_shadow:before {
+        background-color: #4bd1a0;
+      }
+      
+      .chart_cylinder_white_shadow {
+        background-color: #f9f9f9;
+        margin-bottom: 20px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      }
+      
+      .chart_cylinder_white_shadow:before {
+        background-color: #e8e8e8;
+       
+      }
